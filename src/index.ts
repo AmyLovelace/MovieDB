@@ -3,7 +3,7 @@ import axios from "axios";
 const movie_id = 725201
 
 const url = `${process.env.API_URL}/${movie_id}/recommendations`;
-
+console.log('holi');
 const options = {
   method: 'GET',
   headers: {
